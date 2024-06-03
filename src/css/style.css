@@ -1,0 +1,30 @@
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    font-family: "Kumbh Sans";
+    height: 100vh;
+}
+
+.test1 {
+    display: flex;
+    background-image: url("/profile-card-component-main/images/bg-pattern-top.svg");
+
+    width: 50%;
+    height: 100%;
+    background-size: 200%;
+}
+
+.f-perfil {
+    display: flex;
+    height: auto;
+    padding: 20px;
+    margin: 40px;
+    /* flex-direction: column; */
+    /* box-sizing: border-box; */
+    background-position: 30%;
+    border-radius: 100%;
+    background-color: orange;
+    background-size: cover;
+    justify-content: center;
+}
